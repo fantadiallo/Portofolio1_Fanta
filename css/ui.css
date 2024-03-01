@@ -118,3 +118,16 @@ img{
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.container1 {
+  display: flex;
+  width: 100px; /* Width of the container */
+  height: 20px; /* Height of the container */
+  background-color: #13131343; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Border radius */
+  margin: 10px; /* Margin around each container */
+  display: inline-block; /* Display containers in a line */
+  text-align: center; /* Center the content horizontally */
+  line-height: 20px; /* Center the content vertically */
+  color: #fff; /* Text color */
+}

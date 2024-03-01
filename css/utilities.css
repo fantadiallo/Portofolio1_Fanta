@@ -1,0 +1,179 @@
+/*paddings*/
+
+h3,
+h1,
+main,
+footer,
+.comment,
+.projects,
+.itemplug,
+.contacting,
+header {
+  padding: 20px;
+}
+.listing {
+  background: rgba(0, 0, 0, 0.376);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.listing a {
+  color: white;
+  background: rgb(4, 75, 110);
+  padding: 4px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+.listing ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listing li {
+  list-style: circle;
+}
+.aboutme a {
+  font-size: 28px;
+}
+.aboutme li {
+  list-style: square;
+  color: black;
+}
+ul,
+.listing {
+  padding: 10px;
+}
+
+/*paddings ending*/
+nav {
+  display: flex;
+  gap: 40px;
+  padding: 10px 15px;
+}
+
+.activeabout {
+  margin-left: auto;
+}
+.itemplug {
+  text-align: center;
+}
+/*main*/
+
+.allContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.meimgContainer {
+  width: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.alltext {
+  max-width: 500px;
+}
+.alltext {
+  line-height: 30px;
+}
+.shay {
+  border-radius: 100px;
+}
+
+/**/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product {
+  max-width: 1200px;
+  background: rgba(0, 0, 0, 0.42);
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  justify-content: center;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgprojects {
+  max-width: 600px;
+}
+
+/**/
+.textera {
+  max-width: 500px;
+  line-height: 40px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+/**/
+.mylinks {
+  padding: 2px;
+}
+.mylinks a {
+  color: rgb(22, 158, 255);
+  background: black;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 4px;
+  cursor: pointer;
+}
+.mylinks a:hover {
+  opacity: 0.5;
+}
+.contacting {
+  text-align: center;
+}
+.email ul li {
+  padding: 10px;
+}
+.contacting {
+  background: rgba(0, 0, 0, 0.475);
+  max-width: 600px;
+  margin: auto;
+  border-radius: 6px;
+}
+.top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  width: 40px;
+
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.top:hover {
+  background-color: #0056b3;
+}
+
+.top i {
+  font-size: 30px;
+  padding: 5px;
+}
+footer {
+  margin-top: auto;
+  background: rgb(27, 27, 27);
+  text-align: center;
+}
+footer i {
+  font-size: 50px;
+  padding: 10px;
+}

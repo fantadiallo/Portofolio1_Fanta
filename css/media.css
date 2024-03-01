@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+  nav {
+    justify-content: center;
+  }
+ .allContainer{
+flex-direction: column-reverse;
+ }
+ 
+  
+  .sidecontainer {
+    justify-content: center;
+   margin: auto;
+  }
+  ul {
+    flex-direction: column;
+  }
+  .product{
+    display: flex;
+   flex-direction: column-reverse;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+  }
+
+ 
+
+}

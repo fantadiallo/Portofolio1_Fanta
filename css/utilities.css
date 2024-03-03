@@ -18,7 +18,7 @@ header {
 .listing a {
   color: white;
   background: rgb(4, 75, 110);
-  padding: 4px;
+  padding: 6px;
   border-radius: 7px;
   border: 2px solid black;
 }
@@ -86,7 +86,7 @@ img {
 }
 
 .product {
-  max-width: 1200px;
+  max-width: 1250px;
   background: rgba(0, 0, 0, 0.42);
   color: black;
   display: flex;
